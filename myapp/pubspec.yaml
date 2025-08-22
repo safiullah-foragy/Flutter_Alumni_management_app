@@ -1,0 +1,18 @@
+name: cloudinary_gallery
+description: Simple Flutter app to upload images/videos to Cloudinary and view them
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  image_picker: ^1.1.1
+  video_player: ^2.7.2
+  cloudinary_public: ^0.23.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
